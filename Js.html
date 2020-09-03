@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>
+        Javascript
+        </title>
+    <script>
+       
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('form').onsubmit = function xr(){   
+            const name = document.querySelector("#name").value;
+            alert("hello "+ name);
+
+            };
+        
+        });
+    </script>
+</head>
+<body>
+    <h1>Hi</h1>
+    <form>
+        <input autofocus id ="name" placeholder="name" type= "text">
+        <input type ="submit">
+    </form>
+</body>
+</html>
